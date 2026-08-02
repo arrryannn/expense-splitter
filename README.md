@@ -98,7 +98,7 @@ cd frontend
 npm run dev
 ```
 
-```
+
 ### 4 Deployment
 
 Frontend:
@@ -109,9 +109,10 @@ Hosted on Render
 
 Database:
 MongoDB Atlas
-```
 
-```
+``
+
+
 ### 5 API Endpoints
 
 ### Authentication
@@ -142,8 +143,8 @@ Fetch groups
 ---
 ```
 
-```
-## # 6 Future Improvements
+
+### 6 Future Improvements
 
  Add Google authentication
  
