@@ -99,7 +99,7 @@ npm run dev
 ```
 
 ---
-### 4 Deployment
+### 4. Deployment
 
 Frontend:
 Hosted on Vercel
@@ -113,7 +113,7 @@ MongoDB Atlas
 
 ---
 
-### 5 API Endpoints
+### 5. API Endpoints
 
 ### Authentication
 
@@ -145,7 +145,7 @@ Fetch groups
 ---
 
 
-### 6 Future Improvements
+### 6. Future Improvements
 
  Add Google authentication
  
