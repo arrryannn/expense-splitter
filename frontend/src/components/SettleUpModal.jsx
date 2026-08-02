@@ -99,7 +99,7 @@ const SettleUpModal = ({ isOpen, onClose, group, suggestedSettlements, onSettlem
                   <span className="text-slate-200">
                     Pay <strong className="text-white">{recipient?.name || 'User'}</strong>
                   </span>
-                  <span className="font-bold text-emerald-400">${s.amount.toFixed(2)}</span>
+                  <span className="font-bold text-emerald-400">₹{s.amount.toFixed(2)}</span>
                 </div>
               );
             })}
@@ -123,7 +123,7 @@ const SettleUpModal = ({ isOpen, onClose, group, suggestedSettlements, onSettlem
           </div>
 
           <div>
-            <label className="block text-xs font-semibold text-slate-300 mb-1">Amount ($)</label>
+            <label className="block text-xs font-semibold text-slate-300 mb-1">Amount (₹)</label>
             <input
               type="number"
               step="0.01"
