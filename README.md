@@ -97,7 +97,9 @@ npm run dev
 cd frontend
 npm run dev
 ```
-## 4 Deployment
+
+```
+### 4 Deployment
 
 Frontend:
 Hosted on Vercel
@@ -107,8 +109,10 @@ Hosted on Render
 
 Database:
 MongoDB Atlas
+```
 
-## 5 API Endpoints
+```
+### 5 API Endpoints
 
 ### Authentication
 
@@ -136,8 +140,10 @@ POST `/api/groups`
 GET `/api/groups`
 Fetch groups
 ---
+```
 
-##  6 Future Improvements
+```
+## # 6 Future Improvements
 
  Add Google authentication
  
