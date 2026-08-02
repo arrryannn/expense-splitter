@@ -59,7 +59,7 @@ const Register = () => {
                 <input
                   type="text"
                   required
-                  placeholder="John Doe"
+                  placeholder="Ram Kumar"
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="w-full pl-10 pr-4 py-2.5 bg-slate-900 border border-slate-800 rounded-xl text-sm text-white focus:outline-none focus:border-indigo-500"
