@@ -98,7 +98,7 @@ cd frontend
 npm run dev
 ```
 
-
+---
 ### 4 Deployment
 
 Frontend:
@@ -110,8 +110,8 @@ Hosted on Render
 Database:
 MongoDB Atlas
 
-``
 
+---
 
 ### 5 API Endpoints
 
@@ -140,8 +140,9 @@ POST `/api/groups`
 
 GET `/api/groups`
 Fetch groups
+
+
 ---
-```
 
 
 ### 6 Future Improvements
