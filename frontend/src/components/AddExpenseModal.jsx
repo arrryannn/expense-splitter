@@ -62,7 +62,7 @@ const AddExpenseModal = ({ isOpen, onClose, group, onExpenseAdded }) => {
     } else if (splitType === 'exact') {
       const sumExact = selectedMembers.reduce((acc, s) => acc + parseFloat(s.amount || 0), 0);
       if (Math.abs(sumExact - parsedAmount) > 0.05) {
-        setError(`Sum of amounts ($${sumExact.toFixed(2)}) must equal total expense ($${parsedAmount.toFixed(2)})`);
+        setError(`Sum of amounts (₹${sumExact.toFixed(2)}) must equal total expense (₹${parsedAmount.toFixed(2)})`);
         return;
       }
       splitAmongPayload = selectedMembers.map((s) => ({
@@ -72,7 +72,7 @@ const AddExpenseModal = ({ isOpen, onClose, group, onExpenseAdded }) => {
     } else if (splitType === 'percentage') {
       const sumPct = selectedMembers.reduce((acc, s) => acc + parseFloat(s.percentage || 0), 0);
       if (Math.abs(sumPct - 100) > 0.5) {
-        setError(`Sum of percentages (${sumPct}%) must equal 100%`);
+        setError(`Sum of percentages (₹${sumPct}%) must equal 100%`);
         return;
       }
       splitAmongPayload = selectedMembers.map((s) => ({
@@ -146,7 +146,7 @@ const AddExpenseModal = ({ isOpen, onClose, group, onExpenseAdded }) => {
               />
             </div>
             <div>
-              <label className="block text-xs font-semibold text-slate-300 mb-1">Amount ($)</label>
+              <label className="block text-xs font-semibold text-slate-300 mb-1">Amount (₹)</label>
               <input
                 type="number"
                 step="0.01"
@@ -240,7 +240,7 @@ const AddExpenseModal = ({ isOpen, onClose, group, onExpenseAdded }) => {
 
                   {item.selected && splitType === 'exact' && (
                     <div className="flex items-center gap-1 w-28">
-                      <span className="text-slate-400 text-xs">$</span>
+                      <span className="text-slate-400 text-xs">₹</span>
                       <input
                         type="number"
                         step="0.01"

@@ -24,7 +24,7 @@ const Sidebar = ({ onOpenCreateGroup }) => {
                   key={item.path}
                   to={item.path}
                   className={({ isActive }) =>
-                    `flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-sm transition-colors ${
+                    `flex items-center gap-3 px-3 py-2.5 rounded-xl font-medium text-sm transition-colors ₹{
                       isActive
                         ? 'bg-indigo-600/20 text-indigo-400 border border-indigo-500/30'
                         : 'text-slate-400 hover:text-slate-100 hover:bg-slate-800/50'
