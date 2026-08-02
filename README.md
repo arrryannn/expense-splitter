@@ -92,6 +92,11 @@ npm install
 cd backend
 npm run dev
 ```
+#### Terminal 2 - Start Frontend Dev Server:
+```bash
+cd frontend
+npm run dev
+```
 ## 4 Deployment
 
 Frontend:
@@ -102,11 +107,7 @@ Hosted on Render
 
 Database:
 MongoDB Atlas
-#### Terminal 2 - Start Frontend Dev Server:
-```bash
-cd frontend
-npm run dev
-```
+
 ## 5 API Endpoints
 
 ### Authentication
