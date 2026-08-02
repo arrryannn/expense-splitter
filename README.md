@@ -92,7 +92,7 @@ npm install
 cd backend
 npm run dev
 ```
-##  Deployment
+## 4 Deployment
 
 Frontend:
 Hosted on Vercel
@@ -107,7 +107,7 @@ MongoDB Atlas
 cd frontend
 npm run dev
 ```
-## 🔌 API Endpoints
+## 5 API Endpoints
 
 ### Authentication
 
@@ -136,7 +136,7 @@ GET `/api/groups`
 Fetch groups
 ---
 
-##  Future Improvements
+##  6 Future Improvements
 
  Add Google authentication
  
