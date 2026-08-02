@@ -139,5 +139,7 @@ Fetch groups
 ##  Future Improvements
 
  Add Google authentication
+ 
  Add email notifications for expense reminders
+ 
  Add payment integration for settlements
